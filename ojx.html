@@ -1,0 +1,71 @@
+<html>
+<head>
+	<style type="text/css">
+		.day {color: grey}
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$(".day").mousedown(function (){
+				 begin = $(this).attr("date")-1;
+				$(this).css("color","blue");
+			});
+			$(".day").mouseup(function (){
+				var end = $(this).attr("date");
+				if ((end-begin)>0)
+				{
+					var cha = end - begin-1;
+					var str =".day:gt("+begin+"):lt("+cha+")";
+					$(str).css("color","blue");
+				}
+				else {
+					$(this).css("color","blue");
+					end = end-1;
+					var cha = begin - end;
+					var str =".day:gt("+end+"):lt("+cha+")";
+					$(str).css("color","blue");
+				}
+				
+			});
+		});
+		
+	</script>
+</head>
+<body>
+	<div class="month">
+		<div class="day" date="1">JAN 01</div> 
+		<div class="day" date="2">JAN 02</div> 
+		<div class="day" date="3">JAN 03</div> 
+		<div class="day" date="4">JAN 04</div> 
+		<div class="day" date="5">JAN 05</div> 
+		<div class="day" date="6">JAN 06</div> 
+		<div class="day" date="7">JAN 07</div> 
+		<div class="day" date="8">JAN 08</div> 
+		<div class="day" date="9">JAN 09</div> 
+		<div class="day" date="10">JAN 10</div> 
+		<div class="day" date="11">JAN 11</div> 
+		<div class="day" date="12">JAN 12</div> 
+		<div class="day" date="13">JAN 13</div> 
+		<div class="day" date="14">JAN 14</div> 
+		<div class="day" date="15">JAN 15</div> 
+		<div class="day" date="16">JAN 16</div> 
+		<div class="day" date="17">JAN 17</div> 
+		<div class="day" date="18">JAN 18</div> 
+		<div class="day" date="19">JAN 19</div> 
+		<div class="day" date="20">JAN 20</div> 
+		<div class="day" date="21">JAN 21</div> 
+		<div class="day" date="22">JAN 22</div> 
+		<div class="day" date="23">JAN 23</div> 
+		<div class="day" date="24">JAN 24</div> 
+		<div class="day" date="25">JAN 25</div> 
+		<div class="day" date="26">JAN 26</div> 
+		<div class="day" date="27">JAN 27</div> 
+		<div class="day" date="28">JAN 28</div> 
+		<div class="day" date="29">JAN 29</div> 
+		<div class="day" date="30">JAN 30</div> 
+		<div class="day" date="31">JAN 31</div> 
+	</div>
+</body>
+</html>

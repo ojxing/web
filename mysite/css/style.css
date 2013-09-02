@@ -1,0 +1,80 @@
+body {background: url(images/body.png);}
+nav {display: block;}
+a { color: #0252aa; text-decoration: none;}
+a:hover {text-decoration: underline;}
+.shell {width: 990px;margin: 0 auto }
+.container { 
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-image: -moz-linear-gradient(top,  rgba(183, 223, 164, 1) 0%, rgba(221, 221, 221, 1) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(183, 223, 164, 1)), color-stop(100%,rgba(221, 221, 221, 1)));
+  background-image: -webkit-linear-gradient(top,  rgba(183, 223, 164, 1) 0%,rgba(221, 221, 221, 1) 100%);
+  background-image: -o-linear-gradient(top,  rgba(183, 223, 164, 1) 0%,rgba(221, 221, 221, 1) 100%);
+  background-image: -ms-linear-gradient(top,  rgba(183, 223, 164, 1) 0%,rgba(221, 221, 221, 1) 100%);
+  background-image: linear-gradient(to bottom,  rgba(183, 223, 164, 1) 0%,rgba(221, 221, 221, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B7DFA4', endColorstr='#DDDDDD',GradientType=0 );
+  height: 800px;
+  width: 100%;
+  opacity: 1;
+  border: 0px dashed #000000;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0px 0px 27px 0px #000000,0px 0px 12px 0px #000000 inset;
+  -webkit-box-shadow: 0px 0px 27px 0px #000000,0px 0px 12px 0px #000000 inset;
+  -moz-box-shadow: 0px 0px 27px 0px #000000,0px 0px 12px 0px #000000 inset;
+  -ms-box-shadow: 0px 0px 27px 0px #000000,0px 0px 12px 0px #000000 inset;
+  -o-box-shadow: 0px 0px 27px 0px #000000,0px 0px 12px 0px #000000 inset;
+}
+#header {height: 54px; padding-top: 21px; padding-left: 33px; padding-right: 17px; }
+#logo {float: left;}
+.search {float: right; margin-top: 20px}
+.search input.search-btn{
+font:bold 17px Arial, Monaco, monospace;
+font-style:normal;
+color:#0000ff;
+background:#40444a;
+border:6px inset #cccccc;
+text-shadow:0px -1px 10px #222222;
+box-shadow:1px 1px 9px #000000;
+-moz-box-shadow:1px 1px 9px #000000;
+-webkit-box-shadow:1px 1px 9px #000000;
+border-radius:83px 0px 90px 40px;
+-moz-border-radius:83px 0px 90px 40px;
+-webkit-border-radius:83px 0px 90px 40px;
+}
+.search input.field {
+	border: 1px solid #d6d6d6; background: #ededed; width: 166px; height: 24px; line-height: 22px;  padding: 0px 10px; float: left; font-size: 11px; font-family: verdana, arial, helvetica, serif;  color: #bebebe;  border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px;
+}
+#navigation { background: url(images/navigation.png) no-repeat 0 0;}
+#navigation ul { list-style: none; list-style-position: outside;}
+#navigation ul li {float: left; padding-right: 2px;line-height: 50px;background: url(images/nav-border.png) no-repeat right 0;text-transform: uppercase;}
+#navigation ul li.first a {padding-left: 380px;}
+#navigation ul li.active a {text-decoration: none; color: #2b9208;}
+#navigation ul li a {display: block;padding: 0 32px 0 28px; color: #878787}
+#navigation ul li a:hover {text-decoration: none; display: block;padding: 0 32px 0 28px; color: #2b9208}
+.slider-holder {position: relative;z-index: 5;}
+.slider-holder span.slider-shadow {background: url(images/slider-shadow.png) no-repeat 0 0;z-index: 100 ;width: 990px; height: 30px; position: absolute;bottom: 0px; display: block;top: 50px;left: 0px;} 
+.main { padding: 80px 0px 0px 30px;}
+.main .cols {padding-left: 0px;padding-right: 0px;}
+.main .cols .col {float: left; margin-right: 30px;}
+.main .cols .col img {float: left; margin-top: 30px;}
+.main .cols .col .col-cnt h2.col-head {margin-bottom: 0px;}
+.main .cols .col .col-cnt p.col-p {margin-top: 10px;margin-bottom: 10px;}
+.main .cols .col .col-cnt {float: right; width: 150px;}
+.cols a {text-decoration: underline;}
+.cols a:hover {text-decoration: none;}
+.show {background: url(images/slider-shadow.png) no-repeat 0 0; margin-top: 200px;}
+.show img {padding: 40px 10px 0px 60px; float: left; position: relative;}
+.show .show-cnt { padding: 15px 50px 0px 520px; }
+.show .show-cnt p { margin-top: 10px; }
+.show .show-cnt h2 { margin-bottom: 10px; }
+.show .show-cnt li { margin-bottom: 7px; list-style-type: square;}
+.show .show-cnt a { text-decoration: underline; }
+.show .show-cnt a:hover { text-decoration: none; }
+.test {margin-left: 0;z-index: -1;}
+.test a {text-decoration: none; color: #000000;}
+.test .hidediv {margin-left: 340px; z-index: 1;  position: absolute;}
+

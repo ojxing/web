@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ojxing Web Design</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/flyout.css" type="text/css" media="all"/>
+	<script src="js/functions.js" type="text/javascript" media="all"></script>
+	<script src="js/flyout.js" type="text/javascript" media="all"></script>
+</head>
+
+<body onload="time()">
+	<!-- wraper-->
+	<div id="wraper">
+		<!-- shell-->
+		<div class="shell">
+			<!-- container-->
+			<div class="container">
+				<!-- header-->
+				<header id="header">
+					<h1 id="logo"><a href="#">Ojxing</a></h1>
+					
+					<div class="search">
+						<form>
+							<!-- <span><input class="field" type="text" value="keyword here..." /></span>
+							<input type="button" class="search-btn" value="" /> -->
+						</form>
+					</div>
+				</header>
+				<!-- end of header-->
+				<!-- navigation-->
+				<nav id="navigation">
+					<ul>
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">AAAAA</a></li>
+						<li><a href="#">BBBBB</a></li>
+						<li><a href="#">CCCCC</a></li>
+						<li><a href="#">DDDDD</a></li>
+						<li><a href="#">EEEEE</a></li>
+					</ul>
+				</nav>
+				<!-- end of navigation-->
+				<!-- slider-->
+				<div class="m-slider">
+					<div class="slider-holder">
+						<span class="slider-shadow"></span>
+						<span class="slider-b"></span>
+					</div>
+				</div>
+				<!-- end of slider-->
+				<div class="main">
+					<section class="cols">
+						<div class="col">
+							<img id="img" src="css/images/col-img1.png"/>
+							<div class="col-cnt">
+								<h2 class="col-head">Design</h2>
+								<p class='col-p'>Lorem ipsum dolor sit amet, con-
+sectetur adipiscing dolor emo</p>
+							<input type="button" onclick="myfun2()" value="click1"/>
+							</div>
+						</div>
+						<div class="col">
+							<img src="css/images/col-img2.png"/>
+							<div class="col-cnt">
+								<h2 class="col-head">Branding</h2>
+								<p class='col-p'>Lorem ipsum dolor sit amet, con-
+sectetur adipiscing dolor emo</p>
+								<a href="#">view more</a>
+							</div>
+						</div>
+						<div class="col">
+							<img src="css/images/col-img3.png"/>
+							<div class="col-cnt">
+								<h2 class="col-head">Development</h2>
+								<p class='col-p'>Lorem ipsum dolor sit amet, con-
+sectetur adipiscing dolor emo</p>
+								<a href="#">view more</a>
+							</div>
+						</div>
+					</section>
+					
+				</div>
+					<br>
+					<div class="test">
+						
+					</div>
+				<div class="show">
+					<img src="css/images/video-img.png"/>
+					<div class="show-cnt">
+						<h2>What’s in the box?</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit adispicing amet
+Cras molestie condimentum consequat. Nam leo libero, scelerisque tincidunt amet nsectetur adipiscing elit. Cras molestie condimentum nsectetur adipiscing elit. Cras molestie condimentum consequat pretium donec dictum mattis elit, nec:</p>
+						<ul>
+							<li><a href="#">jQuery Fader</a></li>
+							<li><a href="#">Various column options</a></li>
+							<li><a href="#">Valid XHTML and CSS tableless Design</a></li>
+							<li><a href="#">Tested on Mac & PC</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<dl class="dropdown">
+    <dt id="one-ddheader" class="upperdd" onmouseover="ddMenu('one',1)" onmouseout="ddMenu('one',-1)">Dropdown One</dt>
+    <dd id="one-ddcontent" onmouseover="cancelHide('one')" onmouseout="ddMenu('one',-1)">
+      <ul>
+        <li><a href="#" class="underline">Navigation Item 1</a></li>
+        <li><a href="#" class="underline">Navigation Item 2</a></li>
+        <li><a href="#">Navigation Item 3</a></li>
+      </ul>
+    </dd>
+  </dl>
+  <dl class="dropdown">
+    <dt id="two-ddheader" class="upperdd" onmouseover="ddMenu('two',1)" onmouseout="ddMenu('two',-1)">Dropdown Two</dt>
+    <dd id="two-ddcontent" onmouseover="cancelHide('two')" onmouseout="ddMenu('two',-1)">
+      <ul>
+        <li><a href="#" class="underline">Navigation Item 1</a></li>
+        <li><a href="#" class="underline">Navigation Item 2</a></li>
+        <li><a href="#" class="underline">Navigation Item 3</a></li>
+        <li><a href="#" class="underline">Navigation Item 4</a></li>
+        <li><a href="#">Navigation Item 5</a></li>
+      </ul>
+    </dd>
+  </dl>
+  <dl class="dropdown">
+    <dt id="three-ddheader" class="upperdd">Menu Item Three</dt>
+  </dl>
+  <dl class="dropdown">
+    <dt id="four-ddheader" onmouseover="ddMenu('four',1)" onmouseout="ddMenu('four',-1)">Dropdown Four</dt>
+    <dd id="four-ddcontent" onmouseover="cancelHide('four')" onmouseout="ddMenu('four',-1)">
+      <ul>
+        <li><a href="#" class="underline">Navigation Item 1</a></li>
+        <li><a href="#">Navigation Item 2</a></li>
+      </ul>
+    </dd>
+  </dl>
+
+			<!-- end of container-->
+		<!-- end of shell-->
+		</div>
+	</div>
+	<!-- end of wraper-->
+
+</body>
+</html>
